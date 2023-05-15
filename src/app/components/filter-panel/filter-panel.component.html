@@ -1,0 +1,14 @@
+<form [formGroup]="filterForm" class="flex space-x-4">
+  <div>
+    <label for="name" class="block">Name:</label>
+    <input type="text" id="name" formControlName="name" class="px-4 py-2 border border-gray-300 rounded" />
+  </div>
+  <div>
+    <label for="surname" class="block">Surname:</label>
+    <input type="text" id="surname" formControlName="surname" class="px-4 py-2 border border-gray-300 rounded" />
+  </div>
+  <div>
+    <label for="age" class="block">Age:</label>
+    <input type="number" id="age" formControlName="age" class="px-4 py-2 border border-gray-300 rounded" />
+  </div>
+</form>

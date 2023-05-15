@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/angular';
-import { Table3Component } from '../app/table3/table3.component';
+import { Table3Component } from '../app/components/table3/table3.component';
 
 export default {
   title: 'Example/Table3',

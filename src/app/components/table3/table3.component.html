@@ -1,0 +1,16 @@
+<table class="w-full whitespace-nowrap">
+  <thead>
+    <tr class="h-16 w-full text-sm leading-none text-gray-800">
+      <th class="font-normal text-left pl-4">Name</th>
+      <th class="font-normal text-left pl-12">Surname</th>
+      <th class="font-normal text-left pl-12">Age</th>
+    </tr>
+  </thead>
+  <tbody class="w-full">
+    <tr *ngFor="let item of filteredData" class="h-20 text-sm leading-none text-gray-800 bg-white hover:bg-gray-100 border-b border-t border-gray-100">
+      <td class="pl-4">{{ item.name }}</td>
+      <td class="pl-12">{{ item.surname }}</td>
+      <td class="pl-12">{{ item.age }}</td>
+    </tr>
+  </tbody>
+</table>
